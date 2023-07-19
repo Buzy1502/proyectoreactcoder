@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "DON QUIJOTE DE LA MANCHA",
+    "image": "https://www.edicontinente.com.ar/image/titulos/9788419087003.jpg",
+    "author": "MIGUEL DE CERVANTES SAAVEDRA",
+    "synopsis": "Una de las novelas más importantes de todos los tiempos y para muchos la obra definitiva de la literatura española. Escrita por Miguel de Cervantes (1547-1616) y publicada entre 1605 y 1615, narra las aventuras del ingenioso hidalgo Don Quijote de la Mancha (llamado realmente Alonso Quijano), en su misión personal de enmendar entuertos en donde los hubiere, acompañado de su fiel escudero y amigo Sancho Panza. Nacida e inspirada por el amor de su autor por las novelas caballerescas, Don Quijote se convirtió en una oda a ese particular estilo y en una crítica mordaz y humorística de la sociedad y el mundo de la época. No en vano Don Quijote de la Mancha ha sobrevivido por más de cuatro siglos como una novela imprescindible y las aventuras de su protagonista como el arquetipo perfecto de un hombre que lucha con toda su alma por sus ideales. La presente edición incluye la versión íntegra del texto de Cervantes acompañado por ilustraciones del artista francés Gustave Doré (1832-1883).  ",
+    "price": 11990,
+    "stock": 10,
+    "category": "literatura"
+  },
+  {
+    "id": 2,
+    "title": "CIEN AÑOS DE SOLEDAD",
+    "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/52/6b/526bb938f7613f31e3e42272df5463e1.jpg",
+    "author": "GABRIEL GARCIA MARQUEZ",
+    "synopsis": "Una novela clave en la historia de la literatura, una obra que todos deberíamos tener en nuestras estanterías. Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. Con esta cita comienza una de las novelas más importantes del siglo XX y una de las aventuras literarias más fascinantes de todos los tiempos. Millones de ejemplares de Cien años de soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso boca a boca -como gustaba decir el escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero. ",
+    "price": 16400,
+    "stock": 1,
+    "category": "literatura"
+  },
+  {
+    "id": 3,
+    "title": "12 REGLAS PARA VIVIR",
+    "image": "https://img1.od-cdn.com/ImageType-400/5822-1/8FD/A8B/3F/%7B8FDA8B3F-0A06-4F45-8CD3-0D35F9BDB946%7DImg400.jpg",
+    "author": "JORDAN B. PETERSON",
+    "synopsis": "Cuáles son las reglas esenciales para vivir que todos deberíamos conocer? Regla n. 1: mantente erguido con los hombros hacia atrás?, como las langostas; regla n. 8: di la verdad, o por lo menos no mientas; regla n. 11: no molestes a los niños cuando montan en monopatín; regla n. 12: cuando te encuentres un gato por la calle, acarícialo. Jordan Peterson, el pensador más polémico e influyente de nuestro tiempo , según el Spectator, nos propone un apasionante viaje por la historia de las ideas y de la ciencia, desde las tradiciones antiguas a los últimos descubrimientos científicos, para tratar de responder a una pregunta esencial: qué información básica necesitamos para vivir en plenitud. Con humor, amenidad y espíritu divulgativo, Peterson recorre países, tiempos y culturas al mismo tiempo que reflexiona sobre conceptos como la aventura, la disciplina y la responsabilidad. Todo con el fin de desgranar el saber humano en doce hondas y prácticas reglas para la vida que rompen radicalmente con los lugares comunes de la corrección política. ",
+    "price": 7200,
+    "stock": 3,
+    "category": "psicologia"
+  },
+  {
+    "id": 4,
+    "title": "MÁS ALLÁ DEL ORDEN",
+    "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/330/m_libros/329715_portada_mas-alla-del-orden_jordan-b-peterson_202101291342.jpg",
+    "author": "JORDAN B. PETERSON",
+    "synopsis": "En 12 reglas para vivir, obra de la que se han vendido más de cinco millones de ejemplares y que ha influido como ninguna otra en el ámbito intelectual y político del último lustro, Jordan Peterson ofrecía verdades eternas aplicadas a las ansiedades contemporáneas. Su mensaje provocador sobre el valor de la responsabilidad individual y el significado de nuestras acciones ha resonado con enorme fuerza arrastrando a miles de lectores a las librerías. A diferencia del anterior, centrado en las consecuencias del caos, Más allá del orden alerta sobre los peligros de un exceso de seguridad y control en nuestra vida y pone en valor conceptos como la creatividad, la curiosidad o la vitalidad. El objetivo es mantener el perfecto equilibrio entre los dos principios fundamentales de la realidad: el orden y el caos, y evitar que ninguno de los dos gobierne nuestro destino. Entremezclando mitos, historia clásica y ejemplos personales de su propia vida y práctica clínica, Peterson presenta doce nuevos principios para lograr una vida con más sentido.",
+    "price": 9500,
+    "stock": 5,
+    "category": "psicologia"
+  },
+  {
+    "id": 5,
+    "title": "ASESINATO EN EL ORIENT EXPRESS",
+    "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/342/m_libros/341940_portada_asesinato-en-el-orient-express_agatha-christie_201708251946.jpg",
+    "author": "AGATHA CHRISTIE",
+    "synopsis": "En un lugar aislado de la antigua Yugoslavia, en plena madrugada, una fuerte tormenta de nieve obstaculiza la línea férrea por donde circula el Orient Express. Procedente de la exótica Estambul, en él viaja el detective Hércules Poirot, que repentinamente se topa con uno de los casos más desconcertantes de su carrera: en el compartimiento vecino ha sido asesinado Samuel E. Ratchett mientras dormía, pese a que ningún indicio trasluce un móvil concreto. Poirot aprovechará la situación para indagar entre los ocupantes del vagón, que a todas luces deberían ser los únicos posibles autores del crimen. Una víctima, doce sospechosos y una mente privilegiada en busca de la verdad.",
+    "price": 4000,
+    "stock": 7,
+    "category": "policiaco"
+  },
+  {
+    "id": 6,
+    "title": "ESTUDIO EN ESCARLATA",
+    "image": "https://m.media-amazon.com/images/I/51CJbmBY9vL.jpg",
+    "author": "ARTHUR CONAN DOYLE",
+    "synopsis": "Estudio en escarlata es la primera historia del legendario detective Sherlock Holmes y de su amigo, el doctor Watson, un cirujano militar que regresa a Londres tras su participación en la guerra. Watson y Holmes se mudan al famoso número 221B de Baker Street, donde Watson se enfrenta a las excentricidades de Holmes y a su mágica habilidad para la deducción.En esta oportunidad Holmes es llamado para resolver un extraño asesinato: una casa desierta, un cadáver sin heridas, una misteriosa frase escrita con sangre en la pared, dos oficiales de Scotland Yard que no tienen pistas...Este fascinante relato originalmente publicado en 1887, es una pieza indispensable de la obra de Conan Doyle, no sólo porque nos presenta a sus dos personajes fundamentales, Sherlock Holmes y el doctor Watson, sino porque en ella expone el método científico seguido por Holmes basado en la lógica y en los poderes de la observación y la deducción.",
+    "price": 6500,
+    "stock": 6,
+    "category": "policiaco"
+  },
+  {
+    "id": 7,
+    "title": "LA PASTELERÍA SIN SECRETOS",
+    "image": "https://i.pinimg.com/originals/98/3f/12/983f128c722425eb68f497bb47c7d93c.jpg",
+    "author": "OSVALDO GROSS",
+    "synopsis": "Hace poco más de veinte años, Osvaldo Gross daba un primer gran paso: llevaba sus recetas, que ya despertaban devoción en legiones de seguidores y alumnos, a un primer libro. Así llegaba a las librerías La pastelería sin secretos, un clásico de la literatura gastronómica que se convirtió, de inmediato, en imprescindible no solo para quienes daban sus primeros pasos en la pastelería sino también para aquellos que hacían de la cocina su profesión. Y no era para menos, Gross conjugaba –conjuga– como nadie técnica y pasión, por eso su “método” es infalible. También por eso es reconocido en la Argentina y el mundo como uno de los pasteleros más importantes.Básicas, clásicas, con chocolate, para la hora del té, postres: más de 200 recetas se dan cita en esta nueva edición corregida, revisada, aumentada –¡e ilustrada!– de un libro que vuelve a estar al alcance de todos con energía renovada, la magia de siempre y, lo más importante, sin secretos.",
+    "price": 14220,
+    "stock": 2,
+    "category": "cocina"
+  },
+  {
+    "id": 8,
+    "title": "MASA MADRE",
+    "image": "https://contentv2.tap-commerce.com/cover/large/9789502812533_1.jpg?id_com=1113",
+    "author": "RAMÓN GARRIGA-MARIANA KOPPMANN",
+    "synopsis": "El pan ha estado siempre ahí; un alimento esencial en nuestra mesa. Pero también ha sido manipulado y maltratado; al punto de borrarlo por completo de la dieta diaria. Por eso; en sus clases de panadería; Ramón Garriga y Mariana Koppmann difunden desde hace años las bondades de un pan elaborado con nuestras manos y con los ingredientes más naturales que podamos encontrar. Entendiendo y respetando todos los procesos internos; comenzando por desarrollar un cultivo microbiano y alimentarlo y cuidarlo para que perdure. Entre práctica e información; en este libro aprenderemos las variantes que se pueden obtener cambiando la harina; alterando la técnica; considerando la dependencia con la temperatura y el tiempo. En pocos pasos; ya estaremos horneando en casa; en familia o con amigos; difundiendo el arte de hacer pan con masa madre: pan de verdad; pan con sabor a pan. «En estas páginas encontraremos un amplio elenco de recetas variadas en cortezas; migas y acidez; y tantos atributos del pan con masa madre que son imposibles de enumerar. Ahí reside su éxito: que todo está bien explicado por reales conocedores. A nosotros nos queda la tarea de zambullirnos en él y fabricar nuestros panes con aroma a pan. Tan simple como eso; tan simple como la masa madre.» Osvaldo Gross ",
+    "price": 1200,
+    "stock": 5,
+    "category": "cocina"
+  },
+  {
+    "id": 9,
+    "title": "NUNCA PIERDAS LA FE",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1628914011i/58764616.jpg",
+    "author": "LAURA CHIMARAS",
+    "synopsis": "Es un viaje literario que aborda la pérdida de su progenitor en medio de un hecho que enlutó su hogar y un país entero –Venezuela–; así como su proceso de reflexión, esperanza y sanación. Para su hija, Laura Chimaras, el infortunio de ese golpe trajo consigo preguntas y a su vez la búsqueda incesante de respuestas.",
+    "price": 18000,
+    "stock": 5,
+    "category": "recomendados"
+  },
+  {
+    "id": 10,
+    "title": "DÍAS SIN TI",
+    "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/ZQL2SQMFBJKEVPB3TIA3T2GFTU.jpg",
+    "author": "ELVIRA SASTRE",
+    "synopsis": "Días sin ti es una historia de complicidad a través del tiempo, la de una abuela y su nieto. Dora, maestra en tiempos de la República, comparte con Gael la historia que la ha llevado a ser quien es. Con ternura, pero con crudeza, confiesa sus emociones a su nieto escultor, un joven con una sensibilidad especial, y le brinda, sin que éste lo sepa todavía, las claves para reponerse de las heridas causadas por un amor truncado. A través de la reflexión y de lo que enseña la melancolía, esta novela transita esos caminos por los que todos, en algún momento, tenemos que pasar para comprender que la vida y el amor son sublimes precisamente porque tienen un final.",
+    "price": 6000,
+    "stock": 5,
+    "category": "recomendados"
+  },
+  {
+    "id": 11,
+    "title": "TODO LO QUE NECESITO EXISTE YA EN MI",
+    "image": "https://www.planetadelibros.com.ar/usuaris/libros/fotos/329/m_libros/328208_portada_todo-lo-que-necesito-existe-ya-en-mi_elvira-sastre_202101110937.jpg",
+    "author": "RUPI KAUR",
+    "synopsis": "El libro Todo lo que necesito existe ya en mí (2021) de Rupi Kaur es simplemente un remolino de emociones. Un espacio seguro para quien necesita volver a creer en sí mismo y para recordar que sin las heridas y caídas, no seríamos nosotros mismos. Rupi es poeta, artista y creadora.",
+    "price": 6400,
+    "stock": 3,
+    "category": "recomendados"
+  },
+  {
+    "id": 12,
+    "title": "EL ARTE DE ENGAÑAR AL KARMA",
+    "image": "https://www.tematika.com/media/catalog/Ilhsa/Imagenes/687521.jpg",
+    "author": "ELISABET BENAVENT",
+    "synopsis": "Una aspirante a actriz cansada de hacer castings... Un artista reconocido en plena crisis creativa... Unos valiosos cuadros encontrados en un desván... Y el arte del engaño para cambiar las leyes del karma. Después de vender más de 3.000.000 de ejemplares de sus novelas, Elísabet Benavent vuelve con El arte de engañar al karma, una novela donde despliega su virtuosismo narrativo, la magia para crear historias, con un estilo lleno de risas y lágrimas, en una novela sorprendente, llena de belleza y arte en la que las mujeres dejan de ser musas para ser creadoras. Y volar alto.",
+    "price": 12500,
+    "stock": 4,
+    "category": "recomendados"
+  }
+]
