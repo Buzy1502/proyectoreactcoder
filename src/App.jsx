@@ -1,25 +1,30 @@
 import './App.css'
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemDetailContainer from './components/ItemListContainer/ItemDetailContainer/ItemDetailContainer'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import Navbar from './components/Navbar/NavBar';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
-
+import Checkout from './components/Checkout/Checkout';
+import Cart from './components/Cart/Cart';
+import CartProvider from './components/context/CartContext';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path={'/'} element={<ItemListContainer greeting='Puss in Books' />} />
-          <Route path={'/category/:categoryId'} element={<ItemListContainer />} />
-          <Route path={'/item/:itemId'} element={<ItemDetailContainer />} />
-          <Route path={'/cart'} element={<NotFound />} />
-          <Route path={'*'} element={<NotFound />} />
-          <Route />
-        </Routes>
+        <CartProvider>
+          <Navbar />
+          <Routes>
+            <Route path={'/'} element={<ItemListContainer greeting='Puss in Books' />} />
+            <Route path={'/category/:categoryId'} element={<ItemListContainer />} />
+            <Route path={'/item/:itemId'} element={<ItemDetailContainer />} />
+            <Route path={'/cart'} element={<Cart />} />
+            <Route path={'/checkout'} element={<Checkout />} />
+            <Route path={'*'} element={<NotFound />} />
+          </Routes>
+        </CartProvider>
+
       </BrowserRouter>
       <Footer />
     </div>

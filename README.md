@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Puss in books - E-commerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Proyecto final para el curso de reactJS de coderhouse - comisión 43295.
 
-## Available Scripts
+Se trata de un e-commerce de libros.
 
-In the project directory, you can run:
+## Logo
 
-### `npm start`
+Diseño para el logo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Intalación local
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Ingresar en la terminal `$ git clone https://github.com/Buzy1502/proyectoreactcoder.git`.
+2. `$ cd proyectoreactcoder`.
+3. Una vez dentro de la carpeta del proyecto, instalar las dependencias usando `npm install o npm i`.
+4. Levantar el servidor con `$ npm start`.
 
-### `npm test`
+### Rutas definidas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Configuradas en App.js
 
-### `npm run build`
+1. La ruta "/" (por default) muestra el título de bienvenida y el listado de todos los productos (ItemListContainer).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. La ruta "/category/:categoryId" muestra los productos filtador según cada una de las 3 categorías existentes: Juegos, Consolas, Perifericos. El componente tiene el nombre ItemListContainer + filtrado por categoria.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. La ruta "/item/:itemId" muestra el detalle del producto seleccionado mediante el link "ver más", ubicando el producto y asociado a su id.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Laruta "/cart", lleva al carrito de compras para ver el listado de productos agregados, donde se podra sumar, restar o eliminar productos por unidad, mismo vaciar el carrito. Tambien es posible navegar al catalogo desde esta ruta, y en caso de que el carrito de compras este vacio, se indicara que no hay productos agregados y se habilita un boton para volver al catalogo.
 
-### `npm run eject`
+5.  Laruta "/checkout", lleva al detalle de la compra, donde se muestra un formulario de contacto, donde el usuario debe ingresar sus datos para la confirmación de la compra.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Una vez completado el formulario de contacto, se le mostrara por pantalla al usuario el id de la compra junto con un boton que le permite ir a la pagian principal para seguir comprano.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+6. La ruta "/*" define que toda otra ruta a la que se quiera acceder mediante el navegador del browser (y no sea alguna de las anteriores), devuelva "404 - página no encontrada" junto al logo de la App.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Detalles
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Dependencias**
 
-## Learn More
+- React-bootstrap para implementar componentes de react.
+- CDN de bootstrap, para estilizar algunas secciones.
+- Firebase, usada para almacenar el stock y detalle de cada producto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Recorrido
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Recorrido completo**
 
-### Code Splitting
+<video width="320" height="240" controls>
+  <source src="./src/Statics/recorrido.webm" autoplay>
+</video>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Error 404 pagina no encontrada**
+![error 404](/src/Statics/404.png)
+#### Autor
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Botheina Rachid](https://github.com/Buzy1502)

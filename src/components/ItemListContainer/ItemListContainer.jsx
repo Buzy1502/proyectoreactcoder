@@ -1,38 +1,38 @@
 import './itemlistcontainer.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import ItemList from '../ItemListContainer/ItemList/ItemList'
-import mock from '../../mock.json'
+import ItemList from '../ItemList/ItemList'
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore'
+import { FaCat } from "react-icons/fa";
+
 
 function ItemListContainer({ greeting }) {
 
-  const [item, setItem] = useState([])
+  const [items, setItems] = useState([])
   const { categoryId } = useParams()
 
+  const getData = async (category) => {
+    const querydb = getFirestore();
+    const queryCollection = category
+      ? query(collection(querydb, 'items'), where("category", "==", category))
+      : collection(querydb, 'items');
+
+    const results = await getDocs(queryCollection)
+    const data = results.docs.map(p => ({ id: p.id, ...p.data() }))
+    setItems(data)
+  }
   useEffect(() => {
-
-    const getItems = async () => {
-      try {
-        const data = await new Promise((resolve) => {
-          setTimeout(() => {
-            resolve(categoryId ? mock.filter(item => item.category === categoryId) : mock)
-          }, 500);
-        });
-        setItem(data)
-      } catch (error) {
-        console.log(error)
-      }
-    };
-
-    getItems()
-
+    getData(categoryId)
   }, [categoryId])
 
   return (
     <>
-      <h1 className="greeting">{greeting}</h1>
+      <h1 className="greeting">
+        <FaCat />{" "}  
+        {greeting}
+      </h1>
       <div className='itemlist-container'>
-        <ItemList item={item} />
+        <ItemList item={items} />
       </div>
     </>
   )
