@@ -15,6 +15,8 @@ Diseño para el logo:
 3. Una vez dentro de la carpeta del proyecto, instalar las dependencias usando `npm install o npm i`.
 4. Levantar el servidor con `$ npm start`.
 
+[deploy](https://puss-in-books.netlify.app/)
+
 ### Rutas definidas
 
 Configuradas en App.js
@@ -51,6 +53,7 @@ Configuradas en App.js
 
 **Error 404 pagina no encontrada**
 ![error 404](/src/Statics/404.png)
+
 #### Autor
 
 [Botheina Rachid](https://github.com/Buzy1502)
